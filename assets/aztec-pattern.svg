@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <!-- Aztec Border Pattern -->
+        <pattern id="aztec-border" width="50" height="50" patternUnits="userSpaceOnUse">
+            <path d="M0,0 L50,0 L50,50 L0,50 Z" 
+                  fill="none" 
+                  stroke="#8B4513" 
+                  stroke-width="0.5"/>
+            <path d="M25,10 L40,25 L25,40 L10,25 Z" 
+                  fill="none" 
+                  stroke="#8B4513" 
+                  stroke-width="0.5"/>
+        </pattern>
+
+        <!-- Aztec Symbol -->
+        <g id="aztec-symbol">
+            <path d="M0,0 L20,0 L20,20 L0,20 Z" 
+                  fill="none" 
+                  stroke="#DAA520" 
+                  stroke-width="0.5"/>
+            <circle cx="10" cy="10" r="5" 
+                    fill="none" 
+                    stroke="#DAA520" 
+                    stroke-width="0.5"/>
+            <path d="M10,0 L10,20 M0,10 L20,10" 
+                  stroke="#DAA520" 
+                  stroke-width="0.5"/>
+        </g>
+    </defs>
+
+    <!-- Background Pattern -->
+    <rect width="200" height="200" fill="url(#aztec-border)"/>
+
+    <!-- Aztec Symbols -->
+    <g transform="translate(25,25)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(75,25)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(125,25)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(175,25)">
+        <use href="#aztec-symbol"/>
+    </g>
+
+    <g transform="translate(25,75)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(75,75)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(125,75)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(175,75)">
+        <use href="#aztec-symbol"/>
+    </g>
+
+    <g transform="translate(25,125)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(75,125)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(125,125)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(175,125)">
+        <use href="#aztec-symbol"/>
+    </g>
+
+    <g transform="translate(25,175)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(75,175)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(125,175)">
+        <use href="#aztec-symbol"/>
+    </g>
+    <g transform="translate(175,175)">
+        <use href="#aztec-symbol"/>
+    </g>
+</svg> 

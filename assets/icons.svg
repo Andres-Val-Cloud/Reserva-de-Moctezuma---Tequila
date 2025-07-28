@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <!-- Agave Icon -->
+    <symbol id="agave-icon" viewBox="0 0 100 100">
+        <path d="M50 10 L60 30 L70 25 L65 45 L80 40 L70 55 L90 55 L70 65 L85 75 L65 75 L75 90 L50 80 L25 90 L35 75 L15 75 L30 65 L10 55 L30 55 L20 40 L35 45 L30 25 L40 30 Z" 
+              stroke-width="2" 
+              stroke-linejoin="bevel"/>
+    </symbol>
+
+    <!-- Cooking Icon -->
+    <symbol id="cooking-icon" viewBox="0 0 100 100">
+        <path d="M20 80 L80 80 L70 40 L30 40 Z" 
+              stroke-width="2"/>
+        <path d="M35 40 L45 20 L55 20 L65 40" 
+              stroke-width="2" 
+              fill="none"/>
+        <circle cx="50" cy="60" r="10" 
+                stroke-width="2"/>
+        <path d="M45 55 L55 65 M55 55 L45 65" 
+              stroke-width="2" 
+              fill="none"/>
+    </symbol>
+
+    <!-- Distillation Icon -->
+    <symbol id="distillation-icon" viewBox="0 0 100 100">
+        <path d="M40 20 L60 20 L70 50 L30 50 Z" 
+              stroke-width="2"/>
+        <path d="M45 50 L35 80 L65 80 L55 50" 
+              stroke-width="2"/>
+        <path d="M45 35 L55 35 M45 42 L55 42" 
+              stroke-width="2" 
+              fill="none"/>
+    </symbol>
+</svg> 

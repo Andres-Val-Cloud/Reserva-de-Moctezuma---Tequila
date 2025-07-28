@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Moctezuma - Tequila Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrambleTextPlugin.min.js"></script>
+</head>
+<body>
+    <!-- Dynamic Background -->
+    <div class="parallax-bg">
+        <div class="bg-layer layer-1"></div>
+        <div class="bg-layer layer-2"></div>
+        <div class="bg-layer layer-3"></div>
+    </div>
+
+    <nav class="main-nav">
+        <div class="nav-content">
+            <div class="nav-logo">
+                <span>Reserva de Moctezuma</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="parallax-container">
+        <section class="hero parallax-section">
+            <div class="hero-content">
+                <h1 id="scramble-title">Reserva de Moctezuma</h1>
+                <p class="tagline">La esencia del agave azul en su máxima expresión</p>
+                <a href="#productos" class="cta-button">Descubre nuestros tequilas</a>
+            </div>
+            <div class="hero-bottle">
+                <div class="bottle-container">
+                    <div class="doom-border"></div>
+                    <div class="doom-corner corner-tl"></div>
+                    <div class="doom-corner corner-tr"></div>
+                    <div class="doom-corner corner-bl"></div>
+                    <div class="doom-corner corner-br"></div>
+                    <div class="bottle-glow"></div>
+                    <img src="assets/reserva-bottle.png" alt="Botella Reserva de Moctezuma" class="bottle-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="historia" class="content-section historia">
+            <div class="section-container">
+                <h2>Nuestra Historia</h2>
+                <div class="historia-content">
+                    <div class="text-content">
+                        <p>Desde las tierras altas de Jalisco, donde el agave azul crece bajo el sol mexicano, nace Reserva de Moctezuma. Una tradición que honra el legado de nuestros ancestros y la riqueza de nuestra tierra.</p>
+                        <p>Cada botella es un tributo a la grandeza del imperio azteca y la maestría tequilera mexicana.</p>
+                    </div>
+                    <div class="image-content">
+                        <img src="assets/agave-pattern.svg" alt="Patrón de Agave">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="productos" class="parallax-section productos">
+            <div class="section-container">
+                <h2>Nuestros Tequilas</h2>
+                <div class="productos-grid">
+                    <article class="producto-card">
+                        <div class="producto-image">
+                            <img src="assets/aztec-symbols.svg" alt="Tequila Blanco">
+                        </div>
+                        <h3>Blanco Premium</h3>
+                        <p>Cristalino y puro, con notas de agave fresco y cítricos</p>
+                    </article>
+                    <article class="producto-card">
+                        <div class="producto-image">
+                            <img src="assets/aztec-pattern.svg" alt="Tequila Reposado">
+                        </div>
+                        <h3>Reposado Reserva</h3>
+                        <p>6 meses en barricas de roble, con toques de vainilla y caramelo</p>
+                    </article>
+                    <article class="producto-card">
+                        <div class="producto-image">
+                            <img src="assets/doom-texture.svg" alt="Tequila Añejo">
+                        </div>
+                        <h3>Añejo Imperial</h3>
+                        <p>Añejado 18 meses, con notas de roble, chocolate y especias</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="proceso" class="content-section proceso">
+            <div class="section-container">
+                <h2>Proceso Artesanal</h2>
+                <div class="proceso-steps">
+                    <div class="step">
+                        <div class="step-icon">
+                            <img src="assets/tequila-hero.svg" alt="Selección de Agave">
+                        </div>
+                        <h3>Selección</h3>
+                        <p>Agave azul maduro de 7-9 años</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <img src="assets/agave-pattern.svg" alt="Cocción">
+                        </div>
+                        <h3>Cocción</h3>
+                        <p>Hornos tradicionales de mampostería</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <img src="assets/aztec-symbols.svg" alt="Fermentación">
+                        </div>
+                        <h3>Fermentación</h3>
+                        <p>Proceso natural con levaduras propias</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-icon">
+                            <img src="assets/doom-texture.svg" alt="Destilación">
+                        </div>
+                        <h3>Destilación</h3>
+                        <p>Doble destilación en alambiques de cobre</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="parallax-section experiencia">
+            <div class="section-container">
+                <h2>La Experiencia Moctezuma</h2>
+                <div class="experiencia-grid">
+                    <div class="experiencia-card">
+                        <h3>Cata Premium</h3>
+                        <p>Descubre los secretos de nuestros tequilas en sesiones de cata guiadas</p>
+                        <a href="#contacto" class="button">Reservar</a>
+                    </div>
+                    <div class="experiencia-card">
+                        <h3>Visita la Destilería</h3>
+                        <p>Conoce nuestro proceso artesanal y la historia detrás de cada botella</p>
+                        <a href="#contacto" class="button">Agendar</a>
+                    </div>
+                    <div class="experiencia-card">
+                        <h3>Eventos Especiales</h3>
+                        <p>Celebraciones y eventos corporativos en nuestra hacienda</p>
+                        <a href="#contacto" class="button">Informes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="content-section contacto">
+            <div class="section-container">
+                <h2>Contacto</h2>
+                <div class="contacto-content">
+                    <div class="contacto-info">
+                        <h3>Visítanos</h3>
+                        <p>Carretera Arandas-Tepatitlán Km 15</p>
+                        <p>Arandas, Jalisco, México</p>
+                        <h3>Contáctanos</h3>
+                        <p>Tel: +52 (348) 123-4567</p>
+                        <p>Email: info@reservademoctezuma.com</p>
+                    </div>
+                    <form class="contacto-form">
+                        <input type="text" placeholder="Nombre" required>
+                        <input type="email" placeholder="Email" required>
+                        <select required>
+                            <option value="">Selecciona un tema</option>
+                            <option value="cata">Reservar Cata</option>
+                            <option value="visita">Visita a Destilería</option>
+                            <option value="eventos">Eventos Especiales</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                        <textarea placeholder="Mensaje" required></textarea>
+                        <button type="submit" class="button">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>Reserva de Moctezuma</span>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Navegación</h4>
+                        <ul>
+                            <li><a href="#historia">Historia</a></li>
+                            <li><a href="#productos">Productos</a></li>
+                            <li><a href="#proceso">Proceso</a></li>
+                            <li><a href="#experiencia">Experiencia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Síguenos</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-icon">Instagram</a>
+                            <a href="#" class="social-icon">Facebook</a>
+                            <a href="#" class="social-icon">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-legal">
+                    <p>© 2024 Reserva de Moctezuma. Todos los derechos reservados.</p>
+                    <p>Beber con moderación. Prohibida la venta a menores de edad.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

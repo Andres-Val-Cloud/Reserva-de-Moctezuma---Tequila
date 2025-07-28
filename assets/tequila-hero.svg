@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Definiciones de gradientes y filtros -->
+    <defs>
+        <!-- Gradiente para el vidrio de la botella -->
+        <linearGradient id="bottle-glass" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#C19A6B;stop-opacity:0.1"/>
+            <stop offset="20%" style="stop-color:#FFFFFF;stop-opacity:0.3"/>
+            <stop offset="40%" style="stop-color:#C19A6B;stop-opacity:0.1"/>
+            <stop offset="60%" style="stop-color:#FFFFFF;stop-opacity:0.3"/>
+            <stop offset="100%" style="stop-color:#C19A6B;stop-opacity:0.1"/>
+        </linearGradient>
+
+        <!-- Gradiente para el líquido -->
+        <linearGradient id="tequila-liquid" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#DAA520;stop-opacity:0.8"/>
+            <stop offset="50%" style="stop-color:#B8860B;stop-opacity:0.9"/>
+            <stop offset="100%" style="stop-color:#DAA520;stop-opacity:0.8"/>
+        </linearGradient>
+
+        <!-- Filtro para el brillo -->
+        <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+            <feGaussianBlur stdDeviation="5" result="blur"/>
+            <feMerge>
+                <feMergeNode in="blur"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+
+    <!-- Grupo principal de la botella -->
+    <g transform="translate(100, 50)">
+        <!-- Cuello de la botella -->
+        <path d="M200,0 L220,0 L230,100 L190,100 L200,0" 
+              fill="url(#bottle-glass)" 
+              stroke="#C19A6B" 
+              stroke-width="2"/>
+
+        <!-- Anillo del cuello -->
+        <path d="M185,100 L235,100 L235,120 L185,120 Z" 
+              fill="#C19A6B" 
+              stroke="#8B4513" 
+              stroke-width="2"/>
+
+        <!-- Cuerpo de la botella -->
+        <path d="M160,120 
+                 Q150,200 150,300
+                 L150,600
+                 Q150,650 200,680
+                 L220,680
+                 Q270,650 270,600
+                 L270,300
+                 Q270,200 260,120
+                 Z" 
+              fill="url(#bottle-glass)" 
+              stroke="#C19A6B" 
+              stroke-width="2"/>
+
+        <!-- Líquido en la botella -->
+        <path d="M155,280
+                 Q155,300 155,600
+                 Q155,640 200,670
+                 L220,670
+                 Q265,640 265,600
+                 L265,280
+                 Q265,260 210,260
+                 Q155,260 155,280
+                 Z" 
+              fill="url(#tequila-liquid)" 
+              opacity="0.9"/>
+
+        <!-- Etiqueta principal -->
+        <g transform="translate(130, 350)">
+            <rect x="0" y="0" width="160" height="200" 
+                  fill="#1A0F0F" 
+                  stroke="#DAA520" 
+                  stroke-width="2"/>
+            
+            <!-- Decoración de la etiqueta -->
+            <path d="M10,10 L150,10 L150,190 L10,190 Z" 
+                  fill="none" 
+                  stroke="#C19A6B" 
+                  stroke-width="1"/>
+            
+            <!-- Símbolo azteca en la etiqueta -->
+            <g transform="translate(80,100)" filter="url(#glow)">
+                <path d="M0,-40 L20,-30 L40,-40 L30,-20 L40,0 L20,-10 L0,0 L10,-20 Z" 
+                      fill="none" 
+                      stroke="#DAA520" 
+                      stroke-width="1"/>
+                <circle cx="0" cy="0" r="25" 
+                        fill="none" 
+                        stroke="#DAA520" 
+                        stroke-width="1"/>
+            </g>
+        </g>
+
+        <!-- Detalles decorativos -->
+        <g transform="translate(210, 150)" filter="url(#glow)">
+            <path d="M-100,0 
+                     Q-50,-20 0,0 
+                     Q50,20 100,0" 
+                  fill="none" 
+                  stroke="#DAA520" 
+                  stroke-width="1"/>
+        </g>
+
+        <!-- Reflejos -->
+        <path d="M180,200 L190,500" 
+              stroke="#FFFFFF" 
+              stroke-width="2" 
+              opacity="0.3"/>
+        <path d="M240,200 L230,500" 
+              stroke="#FFFFFF" 
+              stroke-width="2" 
+              opacity="0.3"/>
+    </g>
+
+    <!-- Agave decorativo -->
+    <g transform="translate(450, 600)">
+        <g transform="rotate(-30)">
+            <path d="M0,0 C20,-10 40,-10 50,0 C60,10 60,30 50,40 C40,50 20,50 10,40 C0,30 -10,10 0,0 Z" 
+                  fill="none" 
+                  stroke="#C19A6B" 
+                  stroke-width="2"/>
+        </g>
+        <g transform="rotate(30)">
+            <path d="M0,0 C20,-10 40,-10 50,0 C60,10 60,30 50,40 C40,50 20,50 10,40 C0,30 -10,10 0,0 Z" 
+                  fill="none" 
+                  stroke="#C19A6B" 
+                  stroke-width="2"/>
+        </g>
+    </g>
+
+    <!-- Texto "Premium" -->
+    <text x="300" y="750" 
+          text-anchor="middle" 
+          font-family="Playfair Display" 
+          font-size="24" 
+          fill="#DAA520" 
+          filter="url(#glow)">
+        PREMIUM TEQUILA
+    </text>
+</svg> 

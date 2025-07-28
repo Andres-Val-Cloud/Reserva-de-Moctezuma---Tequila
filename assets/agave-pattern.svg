@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <g id="agave-leaf">
+            <path d="M0,0 C10,-5 20,-5 25,0 C30,5 30,15 25,20 C20,25 10,25 5,20 C0,15 -5,5 0,0 Z" 
+                  fill="none" 
+                  stroke="#C19A6B" 
+                  stroke-width="1"/>
+        </g>
+    </defs>
+
+    <!-- Agave Plant 1 -->
+    <g transform="translate(50,50)">
+        <use href="#agave-leaf" transform="rotate(0)"/>
+        <use href="#agave-leaf" transform="rotate(72)"/>
+        <use href="#agave-leaf" transform="rotate(144)"/>
+        <use href="#agave-leaf" transform="rotate(216)"/>
+        <use href="#agave-leaf" transform="rotate(288)"/>
+    </g>
+
+    <!-- Agave Plant 2 -->
+    <g transform="translate(150,150)">
+        <use href="#agave-leaf" transform="rotate(36)"/>
+        <use href="#agave-leaf" transform="rotate(108)"/>
+        <use href="#agave-leaf" transform="rotate(180)"/>
+        <use href="#agave-leaf" transform="rotate(252)"/>
+        <use href="#agave-leaf" transform="rotate(324)"/>
+    </g>
+
+    <!-- Agave Plant 3 -->
+    <g transform="translate(150,50)">
+        <use href="#agave-leaf" transform="rotate(0)"/>
+        <use href="#agave-leaf" transform="rotate(72)"/>
+        <use href="#agave-leaf" transform="rotate(144)"/>
+        <use href="#agave-leaf" transform="rotate(216)"/>
+        <use href="#agave-leaf" transform="rotate(288)"/>
+    </g>
+
+    <!-- Agave Plant 4 -->
+    <g transform="translate(50,150)">
+        <use href="#agave-leaf" transform="rotate(36)"/>
+        <use href="#agave-leaf" transform="rotate(108)"/>
+        <use href="#agave-leaf" transform="rotate(180)"/>
+        <use href="#agave-leaf" transform="rotate(252)"/>
+        <use href="#agave-leaf" transform="rotate(324)"/>
+    </g>
+</svg> 
